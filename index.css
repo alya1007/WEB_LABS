@@ -21,11 +21,12 @@ body {
 	justify-content: center;
 	margin-top: 40px;
 	background-color: #84a268;
-	width: fit-content;
+	/* width: fit-content; */
 	padding: 20px 40px;
 	border-radius: 10px;
-	gap: 70px;
+	gap: 5%;
 	margin-left: 50px;
+	width: 70%;
 }
 
 .contacts__inner {
@@ -99,6 +100,8 @@ body {
 .description__content {
 	flex: 1;
 	margin-right: 60px;
+	text-align: justify;
+	text-justify: inter-word;
 }
 
 .name {
@@ -123,9 +126,61 @@ body {
 .skills__title {
 	margin-left: 200px;
 	font-size: 1.8rem;
+	text-transform: uppercase;
 }
 
 .skills__lists {
 	display: flex;
 	gap: 35px;
+}
+
+/* Main info */
+
+.main__info {
+	display: flex;
+	padding: 50px;
+}
+
+.main__info-left {
+	margin-right: 60px;
+}
+
+.main__info-right {
+	padding-left: 60px;
+	border-left: solid 2px #dadbd7;
+}
+
+/* Education */
+
+.education {
+}
+
+.education__title {
+	font-size: 1.8rem;
+	text-transform: uppercase;
+}
+
+.education__content__inner {
+	display: flex;
+	gap: 20px;
+}
+
+.education__content__inner__dates {
+	margin-top: 21px;
+}
+
+.education__content__inner__title {
+	font-size: 1.2rem;
+}
+
+.education__content__inner__text {
+	font-size: 1rem;
+	width: 400px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+/* Experience */
+
+.experience {
 }
