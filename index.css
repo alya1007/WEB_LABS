@@ -142,40 +142,51 @@ body {
 }
 
 .main__info-left {
-	margin-right: 60px;
+	width: 200%;
 }
 
 .main__info-right {
-	padding-left: 60px;
-	border-left: solid 2px #dadbd7;
+	margin-left: 60px;
 }
 
 /* Education */
 
 .education {
+	padding-right: 60px;
+	border-right: solid 2px #dadbd7;
 }
 
-.education__title {
+.education__title,
+.experience__title {
 	font-size: 1.8rem;
 	text-transform: uppercase;
 }
 
-.education__content__inner {
+.education__content__inner,
+.experience__content__inner {
 	display: flex;
 	gap: 20px;
 }
 
 .education__content__inner__dates {
 	margin-top: 21px;
+	min-width: fit-content;
 }
 
-.education__content__inner__title {
+.experience__content__inner__dates {
+	margin-top: 21px;
+	min-width: 140px;
+}
+
+.education__content__inner__title,
+.experience__content__inner__title {
 	font-size: 1.2rem;
 }
 
-.education__content__inner__text {
+.education__content__inner__text,
+.experience__content__inner__text {
 	font-size: 1rem;
-	width: 400px;
+	width: 100%;
 	text-align: justify;
 	text-justify: inter-word;
 }
